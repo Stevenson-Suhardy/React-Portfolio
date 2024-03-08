@@ -57,14 +57,34 @@ const Navbar = () => {
         className={
           !nav
             ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-[#0A192F] flex flex-col justify-center items-center"
+            : "absolute top-0 left-0 w-full h-screen flex flex-col justify-center items-center bg-white"
         }
       >
-        <li className="py-6 text-4xl">Home</li>
-        <li className="py-6 text-4xl">About</li>
-        <li className="py-6 text-4xl">Skills</li>
-        <li className="py-6 text-4xl">Projects</li>
-        <li className="py-6 text-4xl">Contact</li>
+        <li className="py-6 text-4xl">
+          <Link onClick={closeMenu} to="home" smooth={true} duration={500}>
+            Home
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          <Link onClick={closeMenu} to="about" smooth={true} duration={500}>
+            About
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          <Link onClick={closeMenu} to="skills" smooth={true} duration={500}>
+            Skills
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          <Link onClick={closeMenu} to="projects" smooth={true} duration={500}>
+            Projects
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          <Link onClick={closeMenu} to="contact" smooth={true} duration={500}>
+            Contact
+          </Link>
+        </li>
       </ul>
     </div>
   );
