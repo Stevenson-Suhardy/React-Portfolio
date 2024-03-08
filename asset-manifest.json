@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolio-react-app/static/css/main.924a164b.css",
+    "main.js": "/portfolio-react-app/static/js/main.b43d87f1.js",
+    "static/media/king-william-hotel.png": "/portfolio-react-app/static/media/king-william-hotel.e1a169c382036c4de563.png",
+    "static/media/c-sharp.png": "/portfolio-react-app/static/media/c-sharp.0b55f27498b011636084.png",
+    "static/media/spring.png": "/portfolio-react-app/static/media/spring.1a753d3a09a8df3cec6c.png",
+    "static/media/photo.jpeg": "/portfolio-react-app/static/media/photo.aa0bbb47dde03d7e948f.jpeg",
+    "static/media/crestama.jpg": "/portfolio-react-app/static/media/crestama.ff8ffac641c6ea6b9617.jpg",
+    "static/media/react.png": "/portfolio-react-app/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/durham-region.jpg": "/portfolio-react-app/static/media/durham-region.fc7d76cf4d31466c1e8b.jpg",
+    "static/media/github.png": "/portfolio-react-app/static/media/github.d602c8763da57ff3f186.png",
+    "static/media/html.png": "/portfolio-react-app/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/java.png": "/portfolio-react-app/static/media/java.e238a2c40e6eaec570bc.png",
+    "static/media/javascript.png": "/portfolio-react-app/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/portfolio-react-app/index.html",
+    "main.924a164b.css.map": "/portfolio-react-app/static/css/main.924a164b.css.map",
+    "main.b43d87f1.js.map": "/portfolio-react-app/static/js/main.b43d87f1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.924a164b.css",
+    "static/js/main.b43d87f1.js"
+  ]
+}
