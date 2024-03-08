@@ -4,14 +4,17 @@ import Crestama from "../assets/crestama.jpg";
 import KingWilliamHotel from "../assets/king-william-hotel.png";
 import DurhamRegion from "../assets/durham-region.jpg";
 
-const Work = () => {
+const Projects = () => {
   return (
-    <div name="work" className="w-full md:h-screen text-gray-300 bg-[#0A192F]">
+    <div
+      name="projects"
+      className="w-full md:h-screen text-gray-300 bg-[#0A192F]"
+    >
       {/* Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>
           <p className="text-4xl font-bold inline border-b-4 border-pink-600">
-            Work
+            Projects
           </p>
           <p className="py-6">Check out some of my recent projects</p>
         </div>
@@ -114,4 +117,4 @@ const Work = () => {
   );
 };
 
-export default Work;
+export default Projects;
