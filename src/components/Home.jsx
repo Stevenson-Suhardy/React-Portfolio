@@ -14,9 +14,10 @@ const Home = () => {
           I'm a Web Developer.
         </h2>
         <p className="text-[#8892B0] py-4 max-w-[700px]">
-          Currently, I am a third year student at Durham College. I am a
-          hard-working person, a team player, and a quick learner about
-          programming related skills.
+          Currently, I am a third year student at Durham College and I am about
+          to graduate in 2023. I am a web developer and I am passionate about
+          web development. I am also a fast learner and I am always eager to
+          learn new things.
         </p>
         <div>
           <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600">
