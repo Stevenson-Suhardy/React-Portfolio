@@ -3,6 +3,7 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { HiArrowNarrowRight, HiOutlineMail } from "react-icons/hi";
 import { Link } from "react-scroll";
 import Photo from "../assets/photo.jpeg";
+import Resume from "../assets/resume/resume.pdf";
 
 const Home = () => {
   return (
@@ -45,8 +46,9 @@ const Home = () => {
 
         <div className="flex">
           <a
-            href=""
+            href={Resume}
             className="group border-2 px-6 py-3 my-3 mr-2 flex items-center hover:text-white hover:font-bold hover:bg-blue-600 hover:border-blue-600"
+            download={true}
           >
             Download CV
           </a>
